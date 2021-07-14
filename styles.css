@@ -1,17 +1,97 @@
+
+
 html {
-    font-family: sans-serif;
-    font-size: 17px;
-    background-image: url("images/background.1.jpg");
+
+    background-image:url(./images/gradient-background-with-blue-purple-light-effect.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
+.pic {
+display: flex;
+margin-left: auto;
+margin-right: auto;
+
+} 
+
 .pageTitle {
 text-align: center;
 font-size: 60px;
+color: white;
 }
 
-a { color: black;
+.AboutMe {
+    text-align: center;
+    color: white;
+}
+.AboutMeContent {
+    color: white;
+    text-align: center;
+} 
+* {
+box-sizing: border-box;
+}
+.main {
+    max-width: 1000px;
+    margin: auto;
+}
+.row {
+    margin: 8px -16px;
+  
+}
+.row,
+.row > .column {
+    padding: 10px;
+}
+.column {
+    float: left;
+    width: 25%;
+}
+.row:after {
+    content:" ";
+    display: table;
+    clear:both;
+}
+
+.content {
+    color: white;
+    background-color: transparent;
+    padding: 10px;
+    
+}
+@media screen and (max-width: 900px) {
+    .column {
+      width: 50%;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+  .video {
+      max-width: 100%;
+      height: auto;
+  }
+ 
+.Education {
+    text-align: center;
+    color: white;
+}
+.Goals {
+    text-align: center;
+    color: white;
+}
+.GoalsContent {
+    text-align: center;
+    color: white;
+}
+.EducationContent {
+    text-align: center;
+    color:white;
+}
+
+a { color: white;
     font-weight: bold;
 
 }
