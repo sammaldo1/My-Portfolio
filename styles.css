@@ -2,7 +2,7 @@
 
 html {
 
-    background-image:url(./images/pexels-scott-webb-593158.jpg);
+    background-image:url(./images/ines-alvarez-fdez-VjRc6HDXJ5s-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -45,10 +45,11 @@ box-sizing: border-box;
 }
 .column {
     float: left;
-    width: 25%;
+    width: 33.3%;
+
 }
 .row:after {
-    content:" ";
+    content:"";
     display: table;
     clear:both;
 }
@@ -69,6 +70,7 @@ box-sizing: border-box;
       width: 100%;
     }
   }
+ 
   .video {
       max-width: 100%;
       height: auto;
