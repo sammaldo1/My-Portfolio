@@ -1,4 +1,6 @@
-
+* {
+box-sizing: border-box;
+}
 
 html {
 
@@ -21,19 +23,21 @@ color: white;
 }
 
 .AboutMe {
+    font-size: 25px;
     text-align: center;
     color: white;
 }
 .AboutMeContent {
+    font-size: 18px;
     color: white;
     text-align: center;
 } 
-* {
-box-sizing: border-box;
-}
+
 .main {
     max-width: 1000px;
     margin: auto;
+    
+
 }
 .row {
     margin: 8px -16px;
@@ -45,19 +49,20 @@ box-sizing: border-box;
 }
 .column {
     float: left;
-    width: 33.3%;
+    width: 500px; 
 
 }
 .row:after {
-    content:"";
-    display: table;
-    clear:both;
+   display: block;
+   clear:both; 
+   content:"";
+    
 }
 
 .content {
     color: white;
     background-color: transparent;
-    padding: 10px;
+    padding: auto;
     
 }
 @media screen and (max-width: 900px) {
@@ -71,24 +76,26 @@ box-sizing: border-box;
     }
   }
  
-  .video {
-      max-width: 100%;
-      height: auto;
-  }
+ 
  
 .Education {
+    font-size: 25px;
     text-align: center;
     color: white;
 }
 .Goals {
+    font-size: 25px;
     text-align: center;
     color: white;
 }
 .GoalsContent {
+
+    font-size: 18px;
     text-align: center;
     color: white;
 }
 .EducationContent {
+    font-size: 18px;
     text-align: center;
     color:white;
 }
