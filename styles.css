@@ -1,6 +1,4 @@
-* {
-box-sizing: border-box;
-}
+
 
 html {
 
@@ -32,10 +30,12 @@ color: white;
     color: white;
     text-align: center;
 } 
-
+* {
+box-sizing: border-box;
+}
 .main {
-    width: 100%;
-    margin: 0 8px;
+    max-width: 1000px;
+    margin: auto;
     
 
 }
@@ -45,16 +45,17 @@ color: white;
 }
 .row,
 .row > .column {
-    padding: 10px;
+    padding: 16px;
 }
 .column {
 
-    float: left;
+    float:left;
     width: 500px; 
+    
 
 }
 .row:after {
-   display: block;
+   display: table;
    clear:both; 
    content:"";
     
@@ -76,8 +77,6 @@ color: white;
       width: 100%;
     }
   }
- 
- 
  
 .Education {
     font-size: 25px;
