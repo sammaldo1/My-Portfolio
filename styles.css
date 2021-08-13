@@ -1,108 +1,116 @@
-
-
 html {
-
-    background-image:url(./images/image-from-rawpixel-id-490211-jpeg.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+  background-image: url(./images/image-from-rawpixel-id-490211-jpeg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .pic {
-display: flex;
-margin-left: auto;
-margin-right: auto;
-
-} 
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .pageTitle {
-text-align: center;
-font-size: 60px;
-color: white;
+  text-align: center;
+  font-size: 60px;
+  color: white;
 }
 
 .AboutMe {
-    font-size: 25px;
-    text-align: center;
-    color: white;
+text-decoration: underline;
+  font-size: 25px;
+  text-align: center;
+  color: white;
 }
-.AboutMeContent {
-    font-size: 18px;
-    color: white;
-    text-align: center;
-} 
-* {
-box-sizing: border-box;
-}
-.main {
-    max-width: 1000px;
-    margin: auto;
-    
 
+.AboutMeContent {
+  font-size: 18px;
+  color: white;
+  text-align: center;
 }
+
+.Projects {
+    text-decoration: underline;
+  font-size: 25px;
+  text-align: center;
+  color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
 .row {
-    margin: 8px -16px;
-  
+  padding: 0px auto 0px auto;
+  margin: -40px -16px;
 }
+
 .row,
 .row > .column {
-    padding: 16px;
+  padding: 13px;
 }
+
 .column {
-
-    float:left;
-    width: 500px; 
-    
-
+  float: left;
+  width: 500px;
 }
+
 .row:after {
-   display: table;
-   clear:both; 
-   content:"";
-    
+  display: table;
+  clear: both;
+  content: "";
 }
 
 .content {
-    color: white;
-    background-color: transparent;
-    padding: auto;
-    
+  color: white;
+  background-color: transparent;
+  padding: auto;
 }
+
 @media screen and (max-width: 900px) {
-    .column {
-      width: 50%;
-    }
+  .column {
+    width: 50%;
   }
-  @media screen and (max-width: 600px) {
-    .column {
-      width: 100%;
-    }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
   }
- 
+}
+
 .Education {
-    font-size: 25px;
-    text-align: center;
-    color: white;
+    text-decoration: underline;
+  font-size: 25px;
+  text-align: center;
+  color: white;
 }
+
 .Goals {
-    font-size: 25px;
-    text-align: center;
-    color: white;
+    text-decoration: underline;
+  font-size: 25px;
+  text-align: center;
+  color: white;
 }
+
 .GoalsContent {
-
-    font-size: 18px;
-    text-align: center;
-    color: white;
+  font-size: 18px;
+  text-align: center;
+  color: white;
 }
+
 .EducationContent {
-    font-size: 18px;
-    text-align: center;
-    color:white;
+  font-size: 18px;
+  text-align: center;
+  color: white;
 }
 
-a { color: white;
-    font-weight: bold;
-
+a {
+  color: white;
+  font-weight: bold;
 }
-
-
