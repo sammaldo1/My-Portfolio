@@ -1,6 +1,6 @@
 # Welcome to My-Portfolio 👋
 
-> A short summary with more information about myself. Goals for the future, education, created by myself using HTML, CSS.
+> A short summary with more information about myself. Goals for the future, education, created by myself using __HTML__, __CSS__.
 
 ### 🏠 [Homepage](https://reverent-babbage-175237.netlify.app/)
 
