@@ -3,7 +3,23 @@ html {
   background-size: cover;
   background-repeat: no-repeat;
 }
+.topnav {
+  background-color: none;
+  overflow: hidden;
+} 
+.topnav a{
+  float: right;
+  color: whitesmoke;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
 
+.topnav a:hover {
+  background-color: rebeccapurple;
+  color: black;
+}
 .pic {
   display: flex;
   margin-left: auto;
@@ -17,7 +33,7 @@ html {
 }
 
 .AboutMe {
-text-decoration: underline;
+  text-decoration: underline;
   font-size: 25px;
   text-align: center;
   color: white;
@@ -29,8 +45,41 @@ text-decoration: underline;
   text-align: center;
 }
 
+.TechSkills {
+padding-left: 450px;
+  text-decoration: underline;
+  font-size: 25px;
+  text-align: left;
+  color: white;
+}
+
+.TechSkillsContent {
+  padding-left: 450px;
+  font:18px;
+  color:white;
+  text-align:left;
+  list-style: none; 
+}
+
+
+.ProfSkills {
+  padding-left: 40px;
+  text-decoration: underline;
+  font-size: 25px;
+  text-align: left;
+  color: white;
+}
+
+.ProfSkillsContent {
+  padding-left: 40px;
+    font:18px;
+    color:white;
+    text-align: left;
+    list-style: none; 
+}
+
 .Projects {
-    text-decoration: underline;
+  text-decoration: underline;
   font-size: 25px;
   text-align: center;
   color: white;
@@ -46,30 +95,29 @@ text-decoration: underline;
 }
 
 .row {
-  padding: 0px auto 0px auto;
-  margin: -40px -16px;
-}
+  display: flex;
+} 
 
-.row,
+ .row,
 .row > .column {
   padding: 13px;
-}
+} 
 
 .column {
   float: left;
-  width: 500px;
+  width: 50%;
 }
 
 .row:after {
+  content: "";
   display: table;
   clear: both;
-  content: "";
 }
 
 .content {
   color: white;
   background-color: transparent;
-  padding: auto;
+  padding-left:20px;
 }
 
 @media screen and (max-width: 900px) {
@@ -85,14 +133,14 @@ text-decoration: underline;
 }
 
 .Education {
-    text-decoration: underline;
+  text-decoration: underline;
   font-size: 25px;
   text-align: center;
   color: white;
 }
 
 .Goals {
-    text-decoration: underline;
+  text-decoration: underline;
   font-size: 25px;
   text-align: center;
   color: white;
