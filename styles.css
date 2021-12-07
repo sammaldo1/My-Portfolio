@@ -46,7 +46,7 @@ html {
 }
 
 .TechSkills {
-  padding-left: 450px;
+  padding-left: 55%;
   text-decoration: underline;
   font-size: 25px;
   text-align: left;
@@ -54,7 +54,7 @@ html {
 }
 
 .TechSkillsContent {
-  padding-left: 450px;
+  padding-left: 55%;
   font: 18px;
   color: white;
   text-align: left;
@@ -62,7 +62,7 @@ html {
 }
 
 .ProfSkills {
-  padding-left: 40px;
+  padding-left: 10%;
   text-decoration: underline;
   font-size: 25px;
   text-align: left;
@@ -70,7 +70,7 @@ html {
 }
 
 .ProfSkillsContent {
-  padding-left: 40px;
+  padding-left: 10%;
   font: 18px;
   color: white;
   text-align: left;
