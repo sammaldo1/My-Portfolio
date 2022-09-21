@@ -45,16 +45,16 @@ html {
   text-align: center;
 }
 
-.TechSkills {
-  padding-left: 55%;
+.SourcingSkills {
+  padding-left: 70%;
   text-decoration: underline;
   font-size: 25px;
   text-align: left;
   color: white;
 }
 
-.TechSkillsContent {
-  padding-left: 55%;
+.SourcingSkillsContent {
+  padding-left: 70%;
   font: 18px;
   color: white;
   text-align: left;
@@ -62,7 +62,7 @@ html {
 }
 
 .ProfSkills {
-  padding-left: 17%;
+  padding-left: 35%;
   text-decoration: underline;
   font-size: 25px;
   text-align: left;
@@ -70,7 +70,23 @@ html {
 }
 
 .ProfSkillsContent {
-  padding-left: 17%;
+  padding-left: 35%;
+  font: 18px;
+  color: white;
+  text-align: left;
+  list-style: none;
+}
+
+.TechSkills {
+  padding-left: 1%;
+  text-decoration: underline;
+  font-size: 25px;
+  text-align: left;
+  color: white;
+}
+
+.TechSkillsContent {
+  padding-left: 1%;
   font: 18px;
   color: white;
   text-align: left;
